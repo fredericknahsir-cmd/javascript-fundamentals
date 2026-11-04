@@ -4,3 +4,6 @@ body { font-family: Ariel, sans-serif; background: #f2f6fa; color: #172b45; }
 margin: 16px 0; border: 1px solid #d7e2ec; }
 button { padding: 10px 14px; cursor: pointer; }
 input { padding: 9px; max-width: 100%; }
+
+#pointsText { font-size: 1.2rem; font-weight: bold; }
+#pointsBtn { background: #d4edff; border: 1px solid #8abce0; }
