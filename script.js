@@ -20,3 +20,14 @@ function earnPoints() {
     pointsText.textContent = "Points: " + points;
 }
 pointsBtn.addEventListener("click", earnPoints);
+
+const firstNum = document.querySelector("#firstNum");
+const secondNum = document.querySelector("#secondNum");
+const addBtn = document.querySelector("#addBtn");
+const sumText = document.querySelector("#sumText");
+function addNumbers() {
+    const a = Number(firstNum.value);
+    const b = Number(secondNum.value);
+    sumText.textContent = "Total: " + (a + b);
+}
+addBtn.addEventListener("click", addNumbers);
