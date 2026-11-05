@@ -9,3 +9,5 @@ input { padding: 9px; max-width: 100%; }
 #pointsBtn { background: #d4edff; border: 1px solid #8abce0; }
 
 #firstNum, #secondNum { width: 85px; margin: 5px; }
+
+#scoreResult { font-weight: bold; }
