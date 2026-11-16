@@ -11,3 +11,5 @@ input { padding: 9px; max-width: 100%; }
 #firstNum, #secondNum { width: 85px; margin: 5px; }
 
 #scoreResult { font-weight: bold; }
+
+#skillsList li { margin: 6px 0; }
